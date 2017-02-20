@@ -1,8 +1,8 @@
 # Testing Poject
 
-* Author: Cristian Segura
+* Author: Cristian Segura [cristian.segura.lepe@gmail.com](mailto:cristian.segura.lepe@gmail.com)
 * Creation Date: 2017-02-19
-* Usage: Testing git project
+* Usage: Testing coding and documentation tools
 
 ## 1.- Testing on several topics
 

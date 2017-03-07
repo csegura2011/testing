@@ -1,6 +1,6 @@
 # Testing Poject
 
-* Author: Cristian Segura [cristian.segura.lepe@gmail.com](mailto:cristian.segura.lepe@gmail.com)
+* Author: Cristian Segura <[cristian.segura.lepe@gmail.com](mailto:cristian.segura.lepe@gmail.com)>
 * Creation Date: 2017-02-19
 * Usage: Testing coding and documentation tools
 

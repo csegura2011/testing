@@ -3,6 +3,8 @@
 
 ## 1.- Installation
 
+Intento 1 .. falla de red en la descarga
+
 ```bash
 csl@esclavo1:~/Videos$ sudo pip install SQLAlchemy
 The directory '/home/csl/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
@@ -35,6 +37,12 @@ Successfully installed SQLAlchemy-1.1.6
 /usr/local/lib/python2.7/dist-packages/pip/_vendor/requests/packages/urllib3/util/ssl_.py:122: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. You can upgrade to a newer version of Python to solve this. For more information, see https://urllib3.readthedocs.io/en/latest/security.html#insecureplatformwarning.
   InsecurePlatformWarning
 ```
+
+
+## MySQL Notes
+## SQLite Notes
+
+
 
 
 

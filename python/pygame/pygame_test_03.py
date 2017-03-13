@@ -1,4 +1,4 @@
-#!/usr/local/bin
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
 # Referencias
@@ -10,13 +10,18 @@ import pygame
 
 pygame.init()
 
-size = width, height = 320, 240
-speed = [1,1]
+size = width, height = 640, 480
+speed = [5,5]
 black = 0,0,0
 
+print type(size)
+
 screen = pygame.display.set_mode(size)
+background = pygame.image.load('background.bmp')
+backgroundrect = background.get_rect()
 ball = pygame.image.load("intro_ball.gif")
 ballrect = ball.get_rect()
+
 
 while 1:
     for event in pygame.event.get():
@@ -29,6 +34,7 @@ while 1:
         speed[1] = -speed[1]
 
     screen.fill(black)
+    screen.blit(background, backgroundrect)
     screen.blit(ball, ballrect)
     pygame.display.flip()
 

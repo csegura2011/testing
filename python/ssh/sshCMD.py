@@ -1,12 +1,13 @@
 #!/usr/bin/python2
 
 import argparse
-import cslSSHTools
+import cslSSHTools as ssh
 
 
 def main(arg):
     print "Inside main() function"
-    #cslSSHTools.remote_exec('localhost', 'csl', 'kaned2345', 'echo $HOSTNAME')
+    ssh.remote_exec('localhost', 'csl', 'kaned2345', 'echo $HOSTNAME')
+
     print arg
 
 if __name__ == "__main__" :

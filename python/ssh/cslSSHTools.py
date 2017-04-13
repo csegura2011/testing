@@ -20,6 +20,8 @@ def remote_exec(r_host, r_user, r_pass, r_command, r_port=DEFAULT_SSH_PORT):
     print stdout.read()
 
 
+
+
 # Just test remote_exec function
 #remote_exec('localhost', 'csl', 'kaned2345', 'echo $HOSTNAME')
 

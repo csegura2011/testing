@@ -11,7 +11,7 @@ import pygame
 pygame.init()
 
 size = width, height = 640, 480
-speed = [5,5]
+speed = [1,1]
 black = 0,0,0
 
 print type(size)
@@ -19,7 +19,7 @@ print type(size)
 screen = pygame.display.set_mode(size)
 background = pygame.image.load('background.bmp')
 backgroundrect = background.get_rect()
-ball = pygame.image.load("intro_ball.gif")
+ball = pygame.image.load("lvidal.jpg")  # intro_ball.gif
 ballrect = ball.get_rect()
 
 
